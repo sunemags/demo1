@@ -11,6 +11,7 @@
 		54150998170ECB8D00F82A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54150997170ECB8D00F82A2E /* main.m */; };
 		5415099C170ECB8D00F82A2E /* demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5415099B170ECB8D00F82A2E /* demo1.1 */; };
 		541509A4170ECBA000F82A2E /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 541509A3170ECBA000F82A2E /* DemoFile.m */; };
+		541509A7170ECE0C00F82A2E /* DemoFileX.m in Sources */ = {isa = PBXBuildFile; fileRef = 541509A6170ECE0C00F82A2E /* DemoFileX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		5415099B170ECB8D00F82A2E /* demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo1.1; sourceTree = "<group>"; };
 		541509A2170ECBA000F82A2E /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
 		541509A3170ECBA000F82A2E /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
+		541509A5170ECE0B00F82A2E /* DemoFileX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFileX.h; sourceTree = "<group>"; };
+		541509A6170ECE0C00F82A2E /* DemoFileX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFileX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				54150997170ECB8D00F82A2E /* main.m */,
 				541509A2170ECBA000F82A2E /* DemoFile.h */,
 				541509A3170ECBA000F82A2E /* DemoFile.m */,
+				541509A5170ECE0B00F82A2E /* DemoFileX.h */,
+				541509A6170ECE0C00F82A2E /* DemoFileX.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			files = (
 				54150998170ECB8D00F82A2E /* main.m in Sources */,
 				541509A4170ECBA000F82A2E /* DemoFile.m in Sources */,
+				541509A7170ECE0C00F82A2E /* DemoFileX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
